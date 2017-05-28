@@ -1,0 +1,171 @@
+* {
+  margin : auto;
+  padding : 0;
+}
+
+
+header {
+background-color: black;
+width: 100%;
+}
+
+#header-img {
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 120%;
+overflow: hidden;
+ width: 230px;
+ height: 50%;
+}
+
+#page {
+background-image: url(images/redpanda.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+display: flex;
+justify-content: space-between;
+font-family: "helvetica", sans-serif;
+font-size: 18px;
+font-weight: 900;
+color: white;
+}
+
+#container {
+	margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#menu {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+position: absolute;
+color: white;
+padding: 1em 0;
+flex-wrap: wrap;
+}
+
+#menu {
+  position: fixed; /*permet de faire descendre quand on scroll down */
+  margin: 1em;
+  width: 15%;
+  text-align: left;
+  height: auto;
+}
+#menu-title  {
+  padding: 0.5em 0;
+}
+
+#menu-title h3  {
+  font-family: "Helvetica", sans-serif;
+  line-height: 150%;
+  text-align: center;
+}
+
+ul {
+  line-height: 150%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#menu-contenu {
+  padding: 0.5em 0;
+  justify-content: flex-start;
+}
+
+#menu-contenu li {
+line-height: 220%;
+}
+
+
+#text-presentation {
+display: flex;
+justify-content: flex-end;
+}
+
+#text-presentation h2 {
+text-align:center;
+
+}
+
+#text li {
+margin: 0.2em;
+text-align: center;
+}
+
+#text {
+  width: 20%;
+  padding: 1em 0;
+  margin: 0.2em;
+  margin-bottom: 2em;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: bold;
+  line-height: 150%;
+
+}
+
+#text p {
+  padding: 1em 0em 1em 1.5em ;
+}
+#text h3 {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+li {
+list-style-type: none;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 5em;
+  height: 5em;
+  background-color: white;
+}
+#apple {
+  border-radius: 25%;
+}
+#slack {
+  border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  border-top: 1px solid;
+}
+footer a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5em 0;
+}
+.footer-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.link {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+}
+.footer-img {
+  height: 3em;
+  width: 3em;
+}
+#instagram-img {
+  border-radius: 35%;
+}
+#instagram-link {
+  border-right: 1px double white;
+  border-left: 1px double white;
+}
